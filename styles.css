@@ -129,4 +129,32 @@ input[type=number] {
 .errorClass{
     border: 1px solid ;
 }
+@media (max-width: 768px) {
+    .result p{
+        font-size: 40px;
+    }
+    .result{
+        margin-top: 1rem;
+    }
+    .wrapperCreds{
+        width: 90%;
+        padding: 1.5em;
+    }
+    .submitDiv{
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .datesDiv{
+        flex-direction: row;
+        width: 100%;
+    }
+    .days, .months, .years{
+        width: 33%;
+        margin: 5px 0px;
+    }
+    .result{
+        font-size: 50px;
+    }
 
+    
+}
